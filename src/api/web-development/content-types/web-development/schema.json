@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_developments",
+  "info": {
+    "singularName": "web-development",
+    "pluralName": "web-developments",
+    "displayName": "WebDevelopment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "firstImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

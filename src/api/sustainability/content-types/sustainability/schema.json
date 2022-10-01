@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sustainabilities",
+  "info": {
+    "singularName": "sustainability",
+    "pluralName": "sustainabilities",
+    "displayName": "sustainability"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sustain": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

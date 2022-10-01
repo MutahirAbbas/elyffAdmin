@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wellnesses",
+  "info": {
+    "singularName": "wellness",
+    "pluralName": "wellnesses",
+    "displayName": "wellness",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "nos": {
+      "type": "richtext"
+    },
+    "nosBenifits": {
+      "type": "richtext"
+    },
+    "nosWork": {
+      "type": "richtext"
+    },
+    "ys": {
+      "type": "richtext"
+    },
+    "ysBenifits": {
+      "type": "richtext"
+    },
+    "ysWork": {
+      "type": "richtext"
+    },
+    "introduction": {
+      "type": "richtext"
+    }
+  }
+}
